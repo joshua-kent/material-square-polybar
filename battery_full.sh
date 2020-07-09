@@ -1,13 +1,22 @@
-while true; do
-	status=`cat /sys/class/power_supply/BAT0/status`
+battery_full=98
 
-	if [ $status = 'Full' ]
+while true; do
+	curr_bat_cap=`cat /sys/class/power_supply/BAT0/capacity`
+
+	if [ $curr_bat_cap -ge $battery_full ]
 	then
-		
-		echo ''
+		status=`cat /sys/class/power_supply/BAT0/status`
+
+		if [ $status = 'Full' ] || [ $status = 'Charging' ]
+		then
+			echo ''
+		else
+			echo ''
+		fi
 	else
-		echo ''
+		echo ''
 	fi
+
 	sleep 1 &
 	wait
 done
