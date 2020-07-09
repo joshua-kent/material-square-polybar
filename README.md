@@ -1,4 +1,6 @@
-Work in progress
+Work in progress!
+===
+
 This is a rolling release and has no version
 numbers, but the latest commit should always
 be the best option.
