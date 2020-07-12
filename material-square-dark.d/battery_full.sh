@@ -1,9 +1,9 @@
-battery_full=98
+battery_full=100
 
 while true; do
 	curr_bat_cap=`cat /sys/class/power_supply/BAT0/capacity`
 
-	if [ $curr_bat_cap -ge $battery_full ]
+	if [ $curr_bat_cap -eq $battery_full ]
 	then
 		status=`cat /sys/class/power_supply/BAT0/status`
 
