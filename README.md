@@ -8,7 +8,7 @@ be the best option.
 Material Square Dark TP
 ---
 
-![Material Square Dark TP](https://raw.githubusercontent.com/joshua-kent/material-square-polybar/media/Screenshot%20from%202020-07-10%2019-47-23%20EDITED.png)
+![Material Square Dark TP](https://raw.githubusercontent.com/joshua-kent/material-square-polybar/media/dark-tp-edit.png)
 
 
 Dependencies
