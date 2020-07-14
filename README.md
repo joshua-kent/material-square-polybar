@@ -18,6 +18,7 @@ Fonts:
 
 * Material Icons font
 * Noto Sans fonts
+* Awesome Fonts 5
 
 Other notices:
 
