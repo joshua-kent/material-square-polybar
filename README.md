@@ -25,30 +25,30 @@ How to install
 
 ```bash
 git clone https://github.com/joshua-kent/material-square-polybar.git
-mv material-square-polybar material-square.d
-cp material-square.d ~/.config/polybar
+mv material-square-polybar material-square-polybar
+cp material-square-polybar ~/.config/polybar
 ```
 
 ### Add to i3 configuration file (~/.config/i3/config)
 
 For light theme
 ```bash
-exec sh ~/.config/polybar/material-square.d/launch.sh light &
+exec sh ~/.config/polybar/material-square-polybar/launch.sh light &
 ```
 
 For light and transparent theme
 ```bash
-exec sh ~/.config/polybar/material-square.d/launch.sh light-tp &
+exec sh ~/.config/polybar/material-square-polybar/launch.sh light-tp &
 ```
 
 For dark theme
 ```bash
-exec sh ~/.config/polybar/material-square.d/launch.sh dark &
+exec sh ~/.config/polybar/material-square-polybar/launch.sh dark &
 ```
 
 For dark and transparent theme
 ```bash
-exec sh ~/.config/polybar/material-square.d/launch.sh dark-tp &
+exec sh ~/.config/polybar/material-square-polybar/launch.sh dark-tp &
 ```
 
 Other notices

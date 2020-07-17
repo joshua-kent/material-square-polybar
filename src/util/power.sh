@@ -24,7 +24,7 @@ fi
 
 latest_pid=`pgrep -n polybar`
 pid_info=`cat /proc/${latest_pid}/cmdline | tr -d '\0'`
-if [[ $pid_info =~ "polybar/material-square.d/src/themes/" ]]
+if [[ $pid_info =~ "polybar/material-square-polybar/src/themes/" ]]
 then
 	if [[ $pid_info =~ ".confpower" ]]
 	then
@@ -42,16 +42,16 @@ then
 	then
 		if [[ $tp == 0 ]]
 		then
-			polybar -c ~/.config/polybar/material-square.d/src/themes/light.d/config.conf power
+			polybar -c ~/.config/polybar/material-square-polybar/src/themes/light.d/config.conf power
 		else
-			polybar -c ~/.config/polybar/material-square.d/src/themes/light-tp.d/config.conf power
+			polybar -c ~/.config/polybar/material-square-polybar/src/themes/light-tp.d/config.conf power
 		fi
 	else
 		if [[ $tp == 0 ]]
 		then
-			polybar -c ~/.config/polybar/material-square.d/src/themes/dark.d/config.conf power
+			polybar -c ~/.config/polybar/material-square-polybar/src/themes/dark.d/config.conf power
 		else
-			polybar -c ~/.config/polybar/material-square.d/src/themes/dark-tp.d/config.conf power
+			polybar -c ~/.config/polybar/material-square-polybar/src/themes/dark-tp.d/config.conf power
 		fi
 	fi
 fi

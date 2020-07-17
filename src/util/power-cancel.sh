@@ -1,7 +1,7 @@
 latest_pid=`pgrep -n polybar`
 pid_info=`cat /proc/${latest_pid}/cmdline | tr -d '\0'`
 
-if [[ $pid_info =~ "polybar/material-square.d/src/themes" ]]
+if [[ $pid_info =~ "polybar/material-square-polybar/src/themes" ]]
 then
 	if [[ $pid_info =~ ".confpower" ]]
 	then
