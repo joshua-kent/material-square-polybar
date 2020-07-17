@@ -1,3 +1,5 @@
+#!/bin/bash
+
 latest_pid=`pgrep -n polybar`
 pid_info=`cat /proc/${latest_pid}/cmdline | tr -d '\0'`
 

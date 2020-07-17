@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # OPTIONS:
 # dark	dark theme
 # tp	transparent

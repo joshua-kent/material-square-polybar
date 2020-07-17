@@ -1,3 +1,5 @@
+#!/bin/bash
+
 while true
 do
 	curr_bat_cap=`cat /sys/class/power_supply/BAT0/capacity`
