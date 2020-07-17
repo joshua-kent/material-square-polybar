@@ -21,14 +21,15 @@ Fonts:
 How to install
 ---
 
-Download repository
+### Download repository
+
 ```bash
 git clone https://github.com/joshua-kent/material-square-polybar.git
 mv material-square-polybar material-square.d
 cp material-square.d ~/.config/polybar
 ```
 
-### Add in i3 configuration (~/.config/i3/config):
+### Add to i3 configuration file (~/.config/i3/config)
 
 For light theme
 ```bash
