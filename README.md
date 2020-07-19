@@ -4,22 +4,18 @@ Material Square
 
 Material Square Light
 ---
-
 ![Material Square Light (with power menu)](https://raw.githubusercontent.com/joshua-kent/material-square-polybar/media/light-19-07-2020_edit.png)
 
 Material Square Light TP
 ---
-
 ![Material Square Light TP](https://raw.githubusercontent.com/joshua-kent/material-square-polybar/media/light-tp-19-07-2020_edit.png)
 
 Material Square Dark
 ---
-
 ![Material Square Dark](https://raw.githubusercontent.com/joshua-kent/material-square-polybar/media/dark-19-07-2020_edit.png)
 
 Material Square Dark TP
 ---
-
 ![Material Square Dark TP](https://raw.githubusercontent.com/joshua-kent/material-square-polybar/media/dark-tp-19-07-2020_edit.png)
 
 
