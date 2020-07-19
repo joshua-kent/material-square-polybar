@@ -6,6 +6,10 @@
 # light
 # light-tp
 
+# EXAMPLES
+# ./launch.sh dark-tp
+# sh ~/.config/polybar/material-square-polybar/launch.sh light
+
 killall -wq polybar
 
 if [[ "$1" == "dark" ]]
