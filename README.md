@@ -1,6 +1,12 @@
 Material Square
 ===
 
+
+Material Square Dark
+---
+
+![Material Square Dark](https://raw.githubusercontent.com/joshua-kent/material-square-polybar/media/dark-19-07-2020_edit.png)
+
 Material Square Dark TP
 ---
 
