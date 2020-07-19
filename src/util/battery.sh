@@ -4,6 +4,12 @@ while true
 do
 	curr_bat_cap=`cat /sys/class/power_supply/BAT0/capacity`
 	status=`cat /sys/class/power_supply/BAT0/status`
+
+	# sometimes the battery may go over 100%, in this case, set it to 100% anyway
+	if [ $curr_bat_cap -gt 100 ]
+	then
+		curr_bat_cap=100
+	fi
 	
 	if [ $curr_bat_cap -ge 80 ]
 	then
