@@ -1,10 +1,10 @@
 Material Square
 ===
 
-Material Square Dark TP (this picture is out of date)
+Material Square Dark TP
 ---
 
-![Material Square Dark TP](https://raw.githubusercontent.com/joshua-kent/material-square-polybar/media/dark-tp-edit.png)
+![Material Square Dark TP](https://raw.githubusercontent.com/joshua-kent/material-square-polybar/media/dark-tp-19-07-2020_edit.png)
 
 
 Dependencies
