@@ -5,42 +5,29 @@
 # dark-tp
 # light
 # light-tp
-# openbox
 
 # EXAMPLES
 # ./launch.sh dark-tp
-# sh ~/.config/polybar/material-square-polybar/launch.sh light openbox
+# sh ~/.config/polybar/material-square-polybar/launch.sh light
 
 killall -wq polybar
 
 if [[ "$1" == "dark" ]]
 then
 	polybar -c $HOME/.config/polybar/material-square-polybar/src/themes/dark.d/config.conf material-square-dark &
-	if [[ "$2" == "openbox" ]]
-	then
-		polybar -c $HOME/.config/polybar/material-square-polybar/src/themes/dark.d/config.conf material-square-dark-quicklaunch &
-	fi
+	polybar -c $HOME/.config/polybar/material-square-polybar/src/themes/dark.d/config.conf material-square-dark-quicklaunch &
 elif [[ "$1" == "dark-tp" ]]
 then
 	polybar -c $HOME/.config/polybar/material-square-polybar/src/themes/dark-tp.d/config.conf material-square-dark-tp &
-	if [[ "$2" == "openbox" ]]
-	then
-		polybar -c $HOME/.config/polybar/material-square-polybar/src/themes/dark-tp.d/config.conf material-square-dark-tp-quicklaunch &
-	fi
+	polybar -c $HOME/.config/polybar/material-square-polybar/src/themes/dark-tp.d/config.conf material-square-dark-tp-quicklaunch &
 elif [[ "$1" == "light" ]]
 then
 	polybar -c $HOME/.config/polybar/material-square-polybar/src/themes/light.d/config.conf material-square-light &
-	if [[ "$2" == "openbox" ]]
-	then
-		polybar -c $HOME/.config/polybar/material-square-polybar/src/themes/light.d/config.conf material-square-light-quicklaunch &
-	fi
+	polybar -c $HOME/.config/polybar/material-square-polybar/src/themes/light.d/config.conf material-square-light-quicklaunch &
 elif [[ "$1" == "light-tp" ]]
 then
 	polybar -c $HOME/.config/polybar/material-square-polybar/src/themes/light-tp.d/config.conf material-square-light-tp &
-	if [[ "$2" == "openbox" ]]
-	then
-		polybar -c $HOME/.config/polybar/material-square-polybar/src/themes/light-tp.d/config.conf material-square-light-tp-quicklaunch &
-	fi
+	polybar -c $HOME/.config/polybar/material-square-polybar/src/themes/light-tp.d/config.conf material-square-light-tp-quicklaunch &
 else
 	echo "Invalid input (inputs: 'dark', 'dark-tp', 'light', 'light-tp')"
 fi
